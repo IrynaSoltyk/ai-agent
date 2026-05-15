@@ -123,7 +123,7 @@ Check if `$groupRoles` contains `Owner` or `User Access Administrator`.
 ### 3. Resolve region
 
 Check environment variable `AZURE_LOCATION` first. If not set,
-ask the user — must be one of: `eastus`, `eastus2`, `swedencentral`, `westus`, `westus3`.
+ask the user — must be one of: `eastus`, `eastus2`, `swedencentral`, `westus`, `canadacentral`.
 Default to `eastus` if the user has no preference.
 
 Show the resolved region to the user for confirmation before proceeding.
